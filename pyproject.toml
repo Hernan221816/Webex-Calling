@@ -1,19 +1,17 @@
 [tool.poetry]
-name = "desktop"
+name = "bot_webex_calling"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
-license = "MIT"
-readme = "README.md"
 
 [tool.poetry.dependencies]
-# Aquí puedes agregar las dependencias necesarias
-# Por ejemplo:
-# flask = "^2.0.1"
-# requests = "^2.25.1"
+python = "^3.11"
+flask = "^2.0"
+webexteamssdk = "^1.5"  # Agrega la versión correcta que usas
+requests = "^2.26"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
-python = ">=3.11"  # Esta es la forma correcta de definir la versión de Python
+
 
