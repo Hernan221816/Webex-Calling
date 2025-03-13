@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: webex-calling-bot
+    env: python
+    buildCommand: poetry install
+    startCommand: poetry run python app.py
