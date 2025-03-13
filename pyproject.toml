@@ -3,16 +3,17 @@ name = "desktop"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
-license = "exit"
+license = "MIT"
 readme = "README.md"
-requires-python = ">=3.11"
 
 [tool.poetry.dependencies]
-# Agrega aquí las dependencias necesarias, por ejemplo:
+# Aquí puedes agregar las dependencias necesarias
+# Por ejemplo:
 # flask = "^2.0.1"
 # requests = "^2.25.1"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+python = ">=3.11"  # Esta es la forma correcta de definir la versión de Python
 
